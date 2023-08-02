@@ -1,0 +1,32 @@
+name: Test suite workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  Running-test:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 3
+      matrix:
+        python-version: ["3.8", "3.10", "3.11"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Cache dependency
+        uses: actions/cache@v3.2.3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements/dev.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4.5.0
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install Dev Requirements
+        run: make dev-requirements
+      - name: Run Python Tests
+        run: make test
