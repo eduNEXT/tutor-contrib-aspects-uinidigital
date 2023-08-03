@@ -4,7 +4,7 @@
   dashboard_title: Panel de estudiantado
   description: null
   css: ''
-  slug: null
+  slug: student-dashboard
   uuid: 83660341-8acc-4f09-8f3c-ef4871e2415b
   position:
     DASHBOARD_VERSION_KEY: v2
