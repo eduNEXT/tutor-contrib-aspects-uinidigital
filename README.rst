@@ -1,3 +1,6 @@
+.. image:: https://github.com/eduNEXT/tutor-contrib-aspects-unidigital/actions/workflows/bump_version.yaml/badge.svg
+   :target: https://github.com/eduNEXT/tutor-contrib-aspects-unidigital/actions/workflows/bump_version.yaml
+
 aspects-unidigital plugin for `Tutor <https://docs.tutor.overhang.io>`__
 ===================================================================================
 
