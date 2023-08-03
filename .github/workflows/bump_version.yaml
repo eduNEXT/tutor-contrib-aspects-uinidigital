@@ -2,7 +2,7 @@ name: Bump version
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   bumpversion:
     runs-on: ubuntu-latest
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.DEDALO_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Get next version
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.1
@@ -30,7 +30,7 @@ jobs:
         if: steps.tag_version.outputs.new_version
         run: |
           pip install bumpversion
-          bumpversion --new-version ${{ steps.tag_version.outputs.new_version }} setup.cfg
+          bumpversion --new-version ${{ steps.tag_version.outputs.new_version }} setup.cfg tutoraspects_unidigital/__about__.py
       - name: Update Changelog
         if: steps.tag_version.outputs.new_version
         uses: stefanzweifel/changelog-updater-action@v1.6.2
@@ -44,7 +44,7 @@ jobs:
         with:
           branch: ${{ github.ref }}
           commit_message: "docs(bumpversion): ${{ steps.tag_version.outputs.previous_tag }} → ${{ steps.tag_version.outputs.new_version }}"
-          file_pattern: setup.cfg CHANGELOG.md eox_tenant/*
+          file_pattern: setup.cfg CHANGELOG.md tutoraspects_unidigital/*
   release:
     needs: bumpversion
     if: needs.bumpversion.outputs.version
@@ -55,7 +55,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.DEDALO_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Create tag
         id: tag_version
         uses: mathieudutour/github-tag-action@v6.1
