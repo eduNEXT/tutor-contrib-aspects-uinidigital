@@ -62,7 +62,7 @@
       meta:
         background: BACKGROUND_TRANSPARENT
         headerSize: MEDIUM_HEADER
-        text: "Secci\xF3n 1: Datos globales"
+        text: "Global Data"
       parents:
       - ROOT_ID
       - GRID_ID
