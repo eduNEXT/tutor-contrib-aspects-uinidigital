@@ -1,7 +1,7 @@
 - _file_name: Student_Dashboard.yaml
   _roles:
   - {{ SUPERSET_ROLES_MAPPING.instructor }}
-  dashboard_title: Panel de estudiantado
+  dashboard_title: Student Dashboard
   description: null
   css: ''
   slug: student-dashboard
@@ -18,7 +18,7 @@
     HEADER_ID:
       id: HEADER_ID
       meta:
-        text: Panel de Estudiantado
+        text: Student Dashboard
       type: HEADER
     ROOT_ID:
       children:
@@ -39,7 +39,7 @@
       children: []
       id: TAB-E-Tl_rVKBl
       meta:
-        text: Mi actividad
+        text: My Activity
       parents:
       - ROOT_ID
       - GRID_ID
@@ -49,7 +49,7 @@
       children: []
       id: TAB-dclIZdA65
       meta:
-        text: Mis acceso
+        text: My logins
       parents:
       - ROOT_ID
       - GRID_ID
@@ -59,7 +59,7 @@
       children: []
       id: TAB-xhPfZpHdL
       meta:
-        text: Mi progreso
+        text: My Progress
       parents:
       - ROOT_ID
       - GRID_ID

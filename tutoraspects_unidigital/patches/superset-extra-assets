@@ -1,5 +1,3 @@
-{% include 'openedx-assets-unidigital/Aggregation_Dashboard.yaml' %}
-
-{% include 'openedx-assets-unidigital/Professor_Dashboard.yaml' %}
-
-{% include 'openedx-assets-unidigital/Student_Dashboard.yaml' %}
+{% for file in "openedx-assets-unidigital/"|walk_templates %}
+{% include file %}
+{% endfor %}

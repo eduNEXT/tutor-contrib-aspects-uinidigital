@@ -1,3 +1,4 @@
+---
 es:
   Professor Dashboard: Panel de profesorado
   Forum: Foro
@@ -38,3 +39,11 @@ es:
   Temporal Evolution: "Evoluci\xF3n temporal"
   Courses: Cursos
   Global Data: Datos globales
+  Total courses: Total de cursos
+  Video count: Cantidad de vídeos
+  Total student enrollments: Total de inscripciones de estudiantes
+  Student Dashboard: Panel de estudiantado
+  Ranking: Ranking
+  My Activity: Mi actividad
+  My logins: Mis accesos
+  My Progress: Mi progreso
