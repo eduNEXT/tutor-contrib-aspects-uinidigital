@@ -1,4 +1,4 @@
-- _file_name: Total_courses.yaml
+- _file_name: Total_courses
   slice_name: Total courses
   viz_type: big_number_total
   params:

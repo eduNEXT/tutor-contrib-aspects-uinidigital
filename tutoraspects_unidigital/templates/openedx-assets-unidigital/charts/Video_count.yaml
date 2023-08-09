@@ -1,4 +1,4 @@
-- _file_name: Video_count.yaml
+- _file_name: Video_count
   slice_name: Video count
   viz_type: big_number_total
   params:

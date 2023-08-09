@@ -7,11 +7,91 @@
   slug: aggregation-dashboard
   uuid: 51717a3d-6ff1-4b06-bbf5-7c07eadabc25
   position:
+    CHART-Jv0Ng6pr_v:
+      children: []
+      id: CHART-Jv0Ng6pr_v
+      meta:
+        chartId: 155
+        height: 40
+        sliceName: Total students
+        uuid: 6cab0e64-6eed-4e3b-bdb1-769cafa7b1a1
+        width: 3
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-Rpi17rJ4WI
+      type: CHART
+    CHART-MIMp-uO180:
+      children: []
+      id: CHART-MIMp-uO180
+      meta:
+        chartId: 352
+        height: 40
+        sliceName: Course enrollments by mode
+        uuid: a232fc33-a782-426f-bca4-2195c0e3ec30
+        width: 3
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-qPkQmW9OO0
+      type: CHART
+    CHART-Qli38cPejI:
+      children: []
+      id: CHART-Qli38cPejI
+      meta:
+        chartId: 353
+        height: 40
+        sliceName: Total active students
+        uuid: 3f358549-8061-4b00-b558-36587301caf4
+        width: 3
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-Rpi17rJ4WI
+      type: CHART
+    CHART-WiEKgp2chZ:
+      children: []
+      id: CHART-WiEKgp2chZ
+      meta:
+        chartId: 283
+        height: 40
+        sliceName: Total course enrollments
+        uuid: 1bce488d-f3bb-4472-8829-3d72fec47c4a
+        width: 3
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-Rpi17rJ4WI
+      type: CHART
+    CHART-bfbbchsoDa:
+      children: []
+      id: CHART-bfbbchsoDa
+      meta:
+        chartId: 351
+        height: 40
+        sliceName: Student status
+        uuid: c98a5f66-7027-43a3-ad3b-144a77673dde
+        width: 3
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-qPkQmW9OO0
+      type: CHART
     CHART-explore-351-1:
       children: []
       id: CHART-explore-351-1
       meta:
-        chartId: 351
+        chartId: 279
         height: 50
         sliceName: Total courses
         uuid: 77c78f2a-f93e-49d0-81c8-69f494a2c2ba
@@ -27,7 +107,7 @@
       children: []
       id: CHART-explore-352-1
       meta:
-        chartId: 352
+        chartId: 96
         height: 50
         sliceName: Video count
         uuid: 74c3f731-ea5e-4bb7-bed5-cde7431d98c9
@@ -39,15 +119,15 @@
       - TAB-lTVxk1Nh1m
       - ROW-sRXxTXCBp
       type: CHART
-    CHART-explore-353-1:
+    CHART-ye5YAVepJb:
       children: []
-      id: CHART-explore-353-1
+      id: CHART-ye5YAVepJb
       meta:
-        chartId: 353
-        height: 50
-        sliceName: Total student enrollments
-        uuid: 6d3d6f4a-2165-4c76-9037-c556b80ec730
-        width: 4
+        chartId: 291
+        height: 40
+        sliceName: Total active enrollments
+        uuid: a436bc9a-edef-4b1f-b4bd-bd68bae5ed89
+        width: 3
       parents:
       - ROOT_ID
       - GRID_ID
@@ -164,48 +244,6 @@
       - TAB-b8fzkjGtc
       - ROW-uBa6-t2gX2
       type: MARKDOWN
-    MARKDOWN-KFbOITTQQr:
-      children: []
-      id: MARKDOWN-KFbOITTQQr
-      meta:
-        code: '# Total de inscripciones actuales'
-        height: 50
-        width: 4
-      parents:
-      - ROOT_ID
-      - GRID_ID
-      - TABS-Dc-1WI3Fle
-      - TAB-ThJnl-rA2
-      - ROW-qPkQmW9OO0
-      type: MARKDOWN
-    MARKDOWN-MxHquFogi6:
-      children: []
-      id: MARKDOWN-MxHquFogi6
-      meta:
-        code: '# Total de estudiantes distintos actuales'
-        height: 50
-        width: 4
-      parents:
-      - ROOT_ID
-      - GRID_ID
-      - TABS-Dc-1WI3Fle
-      - TAB-ThJnl-rA2
-      - ROW-Rpi17rJ4WI
-      type: MARKDOWN
-    MARKDOWN-NvZxSTeDXw:
-      children: []
-      id: MARKDOWN-NvZxSTeDXw
-      meta:
-        code: '# Total de inscripciones sin descontar bajas'
-        height: 50
-        width: 4
-      parents:
-      - ROOT_ID
-      - GRID_ID
-      - TABS-Dc-1WI3Fle
-      - TAB-ThJnl-rA2
-      - ROW-Rpi17rJ4WI
-      type: MARKDOWN
     MARKDOWN-OQAgpTZPf4:
       children: []
       id: MARKDOWN-OQAgpTZPf4
@@ -234,35 +272,6 @@
       - TABS-Dc-1WI3Fle
       - TAB-lTVxk1Nh1m
       - ROW-bceEw16HE0
-      type: MARKDOWN
-    MARKDOWN-Qzotp6u2ei:
-      children: []
-      id: MARKDOWN-Qzotp6u2ei
-      meta:
-        code: "# Total de inscripciones de pago, si hay (n\xFAmero y % sobre inscritos\
-          \ totales))"
-        height: 50
-        width: 4
-      parents:
-      - ROOT_ID
-      - GRID_ID
-      - TABS-Dc-1WI3Fle
-      - TAB-ThJnl-rA2
-      - ROW-qPkQmW9OO0
-      type: MARKDOWN
-    MARKDOWN-R83nUknDBJ:
-      children: []
-      id: MARKDOWN-R83nUknDBJ
-      meta:
-        code: "# Total de aprobados (n\xFAmero y % sobre inscritos totales)"
-        height: 50
-        width: 4
-      parents:
-      - ROOT_ID
-      - GRID_ID
-      - TABS-Dc-1WI3Fle
-      - TAB-ThJnl-rA2
-      - ROW-qPkQmW9OO0
       type: MARKDOWN
     MARKDOWN-YprhJw49VI:
       children: []
@@ -468,9 +477,10 @@
       type: ROW
     ROW-Rpi17rJ4WI:
       children:
-      - CHART-explore-353-1
-      - MARKDOWN-MxHquFogi6
-      - MARKDOWN-NvZxSTeDXw
+      - CHART-Jv0Ng6pr_v
+      - CHART-Qli38cPejI
+      - CHART-WiEKgp2chZ
+      - CHART-ye5YAVepJb
       id: ROW-Rpi17rJ4WI
       meta:
         background: BACKGROUND_TRANSPARENT
@@ -494,9 +504,8 @@
       type: ROW
     ROW-qPkQmW9OO0:
       children:
-      - MARKDOWN-KFbOITTQQr
-      - MARKDOWN-R83nUknDBJ
-      - MARKDOWN-Qzotp6u2ei
+      - CHART-bfbbchsoDa
+      - CHART-MIMp-uO180
       id: ROW-qPkQmW9OO0
       meta:
         background: BACKGROUND_TRANSPARENT
