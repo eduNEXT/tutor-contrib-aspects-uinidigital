@@ -20,6 +20,9 @@ hooks.Filters.CONFIG_DEFAULTS.add_items(
         # Each new setting is a pair: (setting_name, default_value).
         # Prefix your setting names with 'ASPECTS_UNIDIGITAL_'.
         ("ASPECTS_UNIDIGITAL_VERSION", __version__),
+        ("DBT_REPOSITORY", "https://github.com/edunext/dbt-aspects-unidigital"),
+        ("DBT_BRANCH", "main"),
+        ("DBT_REPOSITORY_PATH", "dbt-aspects-unidigital"),
     ]
 )
 
