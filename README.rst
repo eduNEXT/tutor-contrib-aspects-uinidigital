@@ -4,6 +4,10 @@
 aspects-unidigital plugin for `Tutor <https://docs.tutor.overhang.io>`__
 ===================================================================================
 
+
+This repository has been deprecated. The necessary code has been moved to the oficial
+`Aspects <https://github.com/openedx/tutor-contrib-aspects>`__ repository.
+
 Installation
 ------------
 
